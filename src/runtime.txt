@@ -1,0 +1,21 @@
+nohup: ignoring input
+[22:46:35.834] [info] [thread 9537] Web server enabled
+[22:46:35.835] [info] [thread 9537] Launching web server
+[22:46:35.835] [info] [thread 9537] Port: 8080
+[22:46:35.835] [info] [thread 9537] doc_root: ../sample_htdocs
+[22:46:45.740] [info] [thread 9540] Got a connection from 35.232.255.52 
+remote end close the connection
+[22:46:53.193] [info] [thread 9553] Got a connection from 69.196.36.252 
+[22:46:53.194] [info] [thread 9554] Got a connection from 69.196.36.252 
+Client timed out, closing connection
+Client timed out, closing connection
+[22:47:48.797] [info] [thread 9607] Got a connection from 69.196.36.252 
+[22:47:48.797] [info] [thread 9608] Got a connection from 69.196.36.252 
+Client timed out, closing connection
+Client timed out, closing connection
+[23:37:31.725] [info] [thread 10234] Got a connection from 99.76.231.170 
+[23:37:31.725] [info] [thread 10235] Got a connection from 99.76.231.170 
+Client timed out, closing connection
+Client timed out, closing connection
+[23:58:59.329] [info] [thread 10532] Got a connection from 128.201.102.2 
+remote end close the connection
