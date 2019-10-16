@@ -289,7 +289,8 @@ int isInitialLine(string msg){
 string initialLineHandler(string line, int* errorCode){
 	size_t getPos = line.find("GET ");
 	size_t httpPos = line.rfind(" HTTP/1.1");
-	if (getPos != 0 || httpPos == string::npos) {
+	size_t slashPos = line.find("/");
+	if (getPos != 0 || httpPos == string::npos || slashPos != getPos + 4) {
 		*errorCode = 400;
 		cout << "initialLine: " << getPos << "," << httpPos << endl;
 		return string("null");
