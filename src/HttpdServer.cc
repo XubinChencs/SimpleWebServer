@@ -217,7 +217,7 @@ void httpClientHandler(int connfd, struct sockaddr_in client){
 					sendResponse(connfd, responseStr, errorCode, reqURL);
 					inProgress = false;
 				}
-				if (close_signal == true){
+				if (close_signal == true || errorCode == 400){
 					close(connfd);
 					return;
 				}
